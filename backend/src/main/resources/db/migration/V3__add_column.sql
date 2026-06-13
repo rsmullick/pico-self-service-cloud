@@ -1,2 +1,0 @@
-ALTER TABLE event_publication
-    ADD COLUMN listener_id VARCHAR(512);

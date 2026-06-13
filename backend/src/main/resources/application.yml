@@ -10,6 +10,12 @@ spring:
       maximum-pool-size: 20
       minimum-idle: 2
 
+  modulith:
+    events:
+      jdbc:
+        schema-initialization:
+          enabled: true
+
   jpa:
     hibernate:
       ddl-auto: validate
